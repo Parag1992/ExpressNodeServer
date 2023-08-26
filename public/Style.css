@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.txtCss{
+	z-index: 1;
+	position: absolute;
+}
+
+.scrollCss{
+	margin-left: 30%;
+	height: 100px;
+	width: 400px;
+	border: 1px solid red;
+	overflow: auto;
+}
+
+.boxmodelCss{
+	height: 400px;
+	background-color: green;
+	padding-left: 10px;
+	position: relative;
+}
+
+.headerCss{
+	width: 100%;
+	height: 60px;
+	background-color: black;
+}
+
+.logoCss{
+	float: left;
+	background-color: lightblue;
+	width: 30%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+
+.menuCss{
+	float: right;
+	background-color: goldenrod;
+	line-height: 60px;
+	width: 70%;
+	height: 60px;
+}
+
+.ulCss{
+	list-style: none;
+	text-align: right;
+}
+
+.linkCss{
+	text-decoration: none;
+	display: inline-block;
+}
+
+.linkCss:link {
+	color: lightblue;
+}
+
+.linkCss:visited{
+	color: grey;
+}
+
+.linkCss:hover {
+	color: red ;
+	z-index: 1;
+	background-color: lightblue;
+}
+
+.linkCss:active{
+	color: red;
+}
+
+.mybckgrd{
+	width: 100%;
+	height: 100vh;
+	background-color: green;
+	background-size: 100% 100%;
+	background-image: url('Plane.jpg');
+	background-attachment: fixed;
+}
+
+.mybckgrd1{
+	width: 100%;
+	height: 100vh;
+	background-color: green;
+	background-size: 100% 100%;
+	background-image: url('Mountain.jpg');
+	background-attachment: fixed;
+}
+
+.fontCss{
+	font-family: 'Dancing Script';
+	font-size: 2em;
+	letter-spacing: 2px;
+}
+
+.borderCss{
+	border: 5px solid darkred;
+}

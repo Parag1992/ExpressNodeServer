@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.mainheader{
+	height: 10%;
+	display: flex;
+}
+
+.logo{
+	margin-left: 15%;
+	height: 90px;
+	width: 20%;
+	background-size: 100% 100%;
+	color: white;
+	display: inline-block;
+	box-shadow: 5px 5px 2px 5px gray;
+}
+
+.navCss{
+	height: 90px;
+	width: 50%;
+	line-height: 90px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.lnkCss{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+
+.lnkCss:hover{
+	text-shadow: 2px 5px 5px gray;
+	color: yellow;
+}
+
+.bottomCss{
+	height: 90px;
+	background-color: white;
+	position: absolute;
+	top: 0;
+	animation-name: car_about;
+	animation-duration: 6s;
+	animation-timing-function: ease;
+}
+
+@keyframes car_about{
+	from{left: 0}
+	to{left: 92%}
+}
+
+.bottomCss img{
+	height: 90px;
+	width: 100px;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+	background-color: gray;
+	background-size: 100% 100%;
+	background-image: url('Mountain.jpg');
+	position: relative;
+}
